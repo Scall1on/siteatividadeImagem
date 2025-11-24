@@ -1,0 +1,13 @@
+{
+  "name": "siteimagem-tests",
+  "version": "1.0.0",
+  "description": "Testes E2E com Cypress para o sistema de galeria de imagens",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test:e2e": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0"
+  }
+}

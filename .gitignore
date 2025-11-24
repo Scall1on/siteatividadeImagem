@@ -1,0 +1,32 @@
+# Dependências
+/vendor/
+/node_modules/
+
+# Uploads
+/uploads/*
+!/uploads/.gitkeep
+
+# Cache e logs
+*.log
+*.cache
+
+# Arquivos de teste
+/coverage/
+/.phpunit.cache
+/cypress/videos/
+/cypress/screenshots/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporários
+/tmp/
+*.tmp
